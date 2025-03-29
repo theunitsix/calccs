@@ -1,9 +1,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Windows.Forms;
 
@@ -78,6 +75,7 @@ namespace BearingDistanceTool
             }
 
         }
+        // Open the location
         private void button1_Click(object sender, EventArgs e)
         {
             OpenMap(this.textBoxA1.Text, this.textBoxA2.Text, this.textBoxA3.Text, this.textBoxA4.Text, this.textBoxA5.Text, this.textBoxA6.Text);
