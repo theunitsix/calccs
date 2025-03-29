@@ -56,7 +56,7 @@ namespace BearingDistanceTool
             this.btnCalculate.Location = new System.Drawing.Point(357, 188);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(100, 30);
-            this.btnCalculate.TabIndex = 0;
+            this.btnCalculate.TabIndex = 32;
             this.btnCalculate.Text = "計算";
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
@@ -66,7 +66,7 @@ namespace BearingDistanceTool
             this.label1.Location = new System.Drawing.Point(12, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(23, 20);
-            this.label1.TabIndex = 1;
+            this.label1.TabIndex = 0;
             this.label1.Text = "A:";
             // 
             // textBoxA1
@@ -74,7 +74,7 @@ namespace BearingDistanceTool
             this.textBoxA1.Location = new System.Drawing.Point(53, 32);
             this.textBoxA1.Name = "textBoxA1";
             this.textBoxA1.Size = new System.Drawing.Size(49, 32);
-            this.textBoxA1.TabIndex = 2;
+            this.textBoxA1.TabIndex = 1;
             this.textBoxA1.Text = "35";
             // 
             // textBoxA2
@@ -82,7 +82,7 @@ namespace BearingDistanceTool
             this.textBoxA2.Location = new System.Drawing.Point(108, 32);
             this.textBoxA2.Name = "textBoxA2";
             this.textBoxA2.Size = new System.Drawing.Size(50, 32);
-            this.textBoxA2.TabIndex = 3;
+            this.textBoxA2.TabIndex = 2;
             this.textBoxA2.Text = "41";
             // 
             // textBoxA3
@@ -90,7 +90,7 @@ namespace BearingDistanceTool
             this.textBoxA3.Location = new System.Drawing.Point(164, 32);
             this.textBoxA3.Name = "textBoxA3";
             this.textBoxA3.Size = new System.Drawing.Size(50, 32);
-            this.textBoxA3.TabIndex = 4;
+            this.textBoxA3.TabIndex = 3;
             this.textBoxA3.Text = "22";
             // 
             // textBoxA4
@@ -98,7 +98,7 @@ namespace BearingDistanceTool
             this.textBoxA4.Location = new System.Drawing.Point(245, 32);
             this.textBoxA4.Name = "textBoxA4";
             this.textBoxA4.Size = new System.Drawing.Size(50, 32);
-            this.textBoxA4.TabIndex = 5;
+            this.textBoxA4.TabIndex = 4;
             this.textBoxA4.Text = "139";
             // 
             // textBoxA5
@@ -106,7 +106,7 @@ namespace BearingDistanceTool
             this.textBoxA5.Location = new System.Drawing.Point(301, 32);
             this.textBoxA5.Name = "textBoxA5";
             this.textBoxA5.Size = new System.Drawing.Size(50, 32);
-            this.textBoxA5.TabIndex = 6;
+            this.textBoxA5.TabIndex = 5;
             this.textBoxA5.Text = "41";
             // 
             // textBoxA6
@@ -114,7 +114,7 @@ namespace BearingDistanceTool
             this.textBoxA6.Location = new System.Drawing.Point(357, 32);
             this.textBoxA6.Name = "textBoxA6";
             this.textBoxA6.Size = new System.Drawing.Size(50, 32);
-            this.textBoxA6.TabIndex = 7;
+            this.textBoxA6.TabIndex = 6;
             this.textBoxA6.Text = "30";
             // 
             // textBoxB6
@@ -179,7 +179,7 @@ namespace BearingDistanceTool
             this.textBoxC6.Location = new System.Drawing.Point(357, 108);
             this.textBoxC6.Name = "textBoxC6";
             this.textBoxC6.Size = new System.Drawing.Size(50, 32);
-            this.textBoxC6.TabIndex = 21;
+            this.textBoxC6.TabIndex = 22;
             this.textBoxC6.Text = "0";
             // 
             // textBoxC5
@@ -187,7 +187,7 @@ namespace BearingDistanceTool
             this.textBoxC5.Location = new System.Drawing.Point(301, 108);
             this.textBoxC5.Name = "textBoxC5";
             this.textBoxC5.Size = new System.Drawing.Size(50, 32);
-            this.textBoxC5.TabIndex = 20;
+            this.textBoxC5.TabIndex = 21;
             this.textBoxC5.Text = "0";
             // 
             // textBoxC4
@@ -195,7 +195,7 @@ namespace BearingDistanceTool
             this.textBoxC4.Location = new System.Drawing.Point(245, 108);
             this.textBoxC4.Name = "textBoxC4";
             this.textBoxC4.Size = new System.Drawing.Size(50, 32);
-            this.textBoxC4.TabIndex = 19;
+            this.textBoxC4.TabIndex = 20;
             this.textBoxC4.Text = "0";
             // 
             // textBoxC3
@@ -203,7 +203,7 @@ namespace BearingDistanceTool
             this.textBoxC3.Location = new System.Drawing.Point(164, 108);
             this.textBoxC3.Name = "textBoxC3";
             this.textBoxC3.Size = new System.Drawing.Size(50, 32);
-            this.textBoxC3.TabIndex = 18;
+            this.textBoxC3.TabIndex = 19;
             this.textBoxC3.Text = "0";
             // 
             // textBoxC2
@@ -211,7 +211,7 @@ namespace BearingDistanceTool
             this.textBoxC2.Location = new System.Drawing.Point(108, 108);
             this.textBoxC2.Name = "textBoxC2";
             this.textBoxC2.Size = new System.Drawing.Size(50, 32);
-            this.textBoxC2.TabIndex = 17;
+            this.textBoxC2.TabIndex = 18;
             this.textBoxC2.Text = "0";
             // 
             // textBoxC1
@@ -219,7 +219,7 @@ namespace BearingDistanceTool
             this.textBoxC1.Location = new System.Drawing.Point(53, 108);
             this.textBoxC1.Name = "textBoxC1";
             this.textBoxC1.Size = new System.Drawing.Size(49, 32);
-            this.textBoxC1.TabIndex = 16;
+            this.textBoxC1.TabIndex = 17;
             this.textBoxC1.Text = "0";
             // 
             // label3
@@ -228,7 +228,7 @@ namespace BearingDistanceTool
             this.label3.Location = new System.Drawing.Point(12, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(23, 20);
-            this.label3.TabIndex = 15;
+            this.label3.TabIndex = 16;
             this.label3.Text = "C:";
             // 
             // textBoxD6
@@ -236,7 +236,7 @@ namespace BearingDistanceTool
             this.textBoxD6.Location = new System.Drawing.Point(357, 150);
             this.textBoxD6.Name = "textBoxD6";
             this.textBoxD6.Size = new System.Drawing.Size(50, 32);
-            this.textBoxD6.TabIndex = 28;
+            this.textBoxD6.TabIndex = 30;
             this.textBoxD6.Text = "0";
             // 
             // textBoxD5
@@ -244,7 +244,7 @@ namespace BearingDistanceTool
             this.textBoxD5.Location = new System.Drawing.Point(301, 150);
             this.textBoxD5.Name = "textBoxD5";
             this.textBoxD5.Size = new System.Drawing.Size(50, 32);
-            this.textBoxD5.TabIndex = 27;
+            this.textBoxD5.TabIndex = 29;
             this.textBoxD5.Text = "0";
             // 
             // textBoxD4
@@ -252,15 +252,16 @@ namespace BearingDistanceTool
             this.textBoxD4.Location = new System.Drawing.Point(245, 150);
             this.textBoxD4.Name = "textBoxD4";
             this.textBoxD4.Size = new System.Drawing.Size(50, 32);
-            this.textBoxD4.TabIndex = 26;
+            this.textBoxD4.TabIndex = 28;
             this.textBoxD4.Text = "0";
             // 
             // textBoxD3
             // 
             this.textBoxD3.Location = new System.Drawing.Point(164, 150);
+            this.textBoxD3.Margin = new System.Windows.Forms.Padding(0);
             this.textBoxD3.Name = "textBoxD3";
             this.textBoxD3.Size = new System.Drawing.Size(50, 32);
-            this.textBoxD3.TabIndex = 25;
+            this.textBoxD3.TabIndex = 27;
             this.textBoxD3.Text = "0";
             // 
             // textBoxD2
@@ -268,7 +269,7 @@ namespace BearingDistanceTool
             this.textBoxD2.Location = new System.Drawing.Point(108, 150);
             this.textBoxD2.Name = "textBoxD2";
             this.textBoxD2.Size = new System.Drawing.Size(50, 32);
-            this.textBoxD2.TabIndex = 24;
+            this.textBoxD2.TabIndex = 26;
             this.textBoxD2.Text = "0";
             // 
             // textBoxD1
@@ -276,7 +277,7 @@ namespace BearingDistanceTool
             this.textBoxD1.Location = new System.Drawing.Point(53, 150);
             this.textBoxD1.Name = "textBoxD1";
             this.textBoxD1.Size = new System.Drawing.Size(49, 32);
-            this.textBoxD1.TabIndex = 23;
+            this.textBoxD1.TabIndex = 25;
             this.textBoxD1.Text = "0";
             // 
             // label4
@@ -285,7 +286,7 @@ namespace BearingDistanceTool
             this.label4.Location = new System.Drawing.Point(12, 162);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(24, 20);
-            this.label4.TabIndex = 22;
+            this.label4.TabIndex = 24;
             this.label4.Text = "D:";
             // 
             // txtResult
@@ -295,7 +296,7 @@ namespace BearingDistanceTool
             this.txtResult.Name = "txtResult";
             this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtResult.Size = new System.Drawing.Size(447, 111);
-            this.txtResult.TabIndex = 29;
+            this.txtResult.TabIndex = 33;
             // 
             // label5
             // 
@@ -317,47 +318,48 @@ namespace BearingDistanceTool
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(413, 36);
+            this.button1.Location = new System.Drawing.Point(413, 32);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(48, 23);
-            this.button1.TabIndex = 32;
+            this.button1.Size = new System.Drawing.Size(48, 32);
+            this.button1.TabIndex = 7;
             this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(413, 79);
+            this.button2.Location = new System.Drawing.Point(413, 70);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 23);
-            this.button2.TabIndex = 33;
+            this.button2.Size = new System.Drawing.Size(48, 32);
+            this.button2.TabIndex = 15;
             this.button2.Text = "...";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(413, 119);
+            this.button3.Location = new System.Drawing.Point(413, 108);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(48, 23);
-            this.button3.TabIndex = 34;
+            this.button3.Size = new System.Drawing.Size(48, 32);
+            this.button3.TabIndex = 23;
             this.button3.Text = "...";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(413, 159);
+            this.button4.Location = new System.Drawing.Point(413, 150);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(48, 23);
-            this.button4.TabIndex = 35;
+            this.button4.Size = new System.Drawing.Size(48, 32);
+            this.button4.TabIndex = 31;
             this.button4.Text = "...";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // MainForm
             // 
-            this.ClientSize = new System.Drawing.Size(481, 353);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(476, 353);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -395,8 +397,10 @@ namespace BearingDistanceTool
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalculate);
             this.Font = new System.Drawing.Font("游ゴシック", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "MainForm";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "方位角・距離計算ツール";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);

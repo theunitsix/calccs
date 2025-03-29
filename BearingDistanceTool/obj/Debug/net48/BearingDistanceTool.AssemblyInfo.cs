@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BearingDistanceTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+968486fbfc045794a78c29d07355a1d5d1d2d852")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d45757bfc09e07e10a6b42f6b55df07a9596bb26")]
 [assembly: System.Reflection.AssemblyProductAttribute("BearingDistanceTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BearingDistanceTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
