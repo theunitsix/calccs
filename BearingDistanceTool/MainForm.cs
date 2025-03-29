@@ -15,6 +15,7 @@ namespace BearingDistanceTool
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            // TODO: Error handling
             var points = new List<GeoPoint>
             {
             new GeoPoint { Label = "A", LatDeg = Convert.ToInt32(this.textBoxA1.Text), LatMin = Convert.ToInt32(this.textBoxA2.Text), LatSec = Convert.ToInt32(this.textBoxA3.Text), LonDeg = Convert.ToInt32(this.textBoxA4.Text), LonMin = Convert.ToInt32(this.textBoxA5.Text), LonSec = Convert.ToInt32(this.textBoxA6.Text) },
@@ -45,7 +46,7 @@ namespace BearingDistanceTool
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
+            // DO SOMETHING
         }
 
         // Opens the location with Edge 
