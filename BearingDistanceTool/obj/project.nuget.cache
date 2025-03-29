@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FrGrK+x9mRY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Unit6\\Source\\Repos\\calccs\\BearingDistanceTool\\BearingDistanceTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Unit6\\.nuget\\packages\\microsoft.web.webview2\\1.0.3124.44\\microsoft.web.webview2.1.0.3124.44.nupkg.sha512"
+  ],
+  "logs": []
+}

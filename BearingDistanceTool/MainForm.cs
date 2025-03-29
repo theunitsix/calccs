@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Windows.Forms;
 
@@ -48,6 +49,52 @@ namespace BearingDistanceTool
         private void MainForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenMap(this.textBoxA1.Text, this.textBoxA2.Text, this.textBoxA3.Text, this.textBoxA4.Text, this.textBoxA5.Text, this.textBoxA6.Text);
+        }
+
+        private void OpenMap(string n1, string n2, string n3, string e1, string e2, string e3)
+        {
+            string dmsLat = n1.ToString() + "°" + n2.ToString() + "'" + n3.ToString() + "\"N";
+            string dmsLng = e1.ToString() + "°" + e2.ToString() + "'" + e3.ToString() + "\"E";
+
+            // URLエンコード（スペースや記号があるので注意）
+            string url = $"https://www.google.com/maps/place/{Uri.EscapeDataString(dmsLat + " " + dmsLng)}";
+            // Edgeを使って開く
+            var psi = new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "msedge.exe",
+                Arguments = url,
+                UseShellExecute = true
+            };
+
+            try
+            {
+                System.Diagnostics.Process.Start(psi);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Edgeで開けませんでした: " + ex.Message);
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenMap(this.textBoxB1.Text, this.textBoxB2.Text, this.textBoxB3.Text, this.textBoxB4.Text, this.textBoxB5.Text, this.textBoxB6.Text);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenMap(this.textBoxC1.Text, this.textBoxC2.Text, this.textBoxC3.Text, this.textBoxC4.Text, this.textBoxC5.Text, this.textBoxC6.Text);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OpenMap(this.textBoxD1.Text, this.textBoxD2.Text, this.textBoxD3.Text, this.textBoxD4.Text, this.textBoxD5.Text, this.textBoxD6.Text);
         }
     }       
 }

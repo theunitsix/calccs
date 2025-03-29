@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Unit6\\source\\repos\\calccs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7C57C1-3B6A-4E9F-B1F2-07F5B72B9C47}|BearingDistanceTool\\BearingDistanceTool.csproj|c:\\users\\unit6\\source\\repos\\calccs\\bearingdistancetool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E7C57C1-3B6A-4E9F-B1F2-07F5B72B9C47}|BearingDistanceTool\\BearingDistanceTool.csproj|solutionrelative:bearingdistancetool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7C57C1-3B6A-4E9F-B1F2-07F5B72B9C47}|BearingDistanceTool\\BearingDistanceTool.csproj|c:\\users\\unit6\\source\\repos\\calccs\\bearingdistancetool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E7C57C1-3B6A-4E9F-B1F2-07F5B72B9C47}|BearingDistanceTool\\BearingDistanceTool.csproj|solutionrelative:bearingdistancetool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7C57C1-3B6A-4E9F-B1F2-07F5B72B9C47}|BearingDistanceTool\\BearingDistanceTool.csproj|c:\\users\\unit6\\source\\repos\\calccs\\bearingdistancetool\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1E7C57C1-3B6A-4E9F-B1F2-07F5B72B9C47}|BearingDistanceTool\\BearingDistanceTool.csproj|solutionrelative:bearingdistancetool\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.resx",
+              "DocumentMoniker": "C:\\Users\\Unit6\\Source\\Repos\\calccs\\BearingDistanceTool\\MainForm.resx",
+              "RelativeDocumentMoniker": "BearingDistanceTool\\MainForm.resx",
+              "ToolTip": "C:\\Users\\Unit6\\Source\\Repos\\calccs\\BearingDistanceTool\\MainForm.resx",
+              "RelativeToolTip": "BearingDistanceTool\\MainForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-29T04:14:34.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\Unit6\\source\\repos\\calccs\\BearingDistanceTool\\MainForm.cs",
+              "RelativeDocumentMoniker": "BearingDistanceTool\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Unit6\\source\\repos\\calccs\\BearingDistanceTool\\MainForm.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "BearingDistanceTool\\MainForm.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:59:43.075Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Unit6\\source\\repos\\calccs\\BearingDistanceTool\\MainForm.cs",
+              "RelativeDocumentMoniker": "BearingDistanceTool\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Unit6\\source\\repos\\calccs\\BearingDistanceTool\\MainForm.cs",
+              "RelativeToolTip": "BearingDistanceTool\\MainForm.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAASwE0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T03:59:35.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
