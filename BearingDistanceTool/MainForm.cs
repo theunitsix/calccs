@@ -51,10 +51,7 @@ namespace BearingDistanceTool
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            OpenMap(this.textBoxA1.Text, this.textBoxA2.Text, this.textBoxA3.Text, this.textBoxA4.Text, this.textBoxA5.Text, this.textBoxA6.Text);
-        }
+        // Opens the location with Edge 
 
         private void OpenMap(string n1, string n2, string n3, string e1, string e2, string e3)
         {
@@ -80,6 +77,10 @@ namespace BearingDistanceTool
                 MessageBox.Show("Edgeで開けませんでした: " + ex.Message);
             }
 
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenMap(this.textBoxA1.Text, this.textBoxA2.Text, this.textBoxA3.Text, this.textBoxA4.Text, this.textBoxA5.Text, this.textBoxA6.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)

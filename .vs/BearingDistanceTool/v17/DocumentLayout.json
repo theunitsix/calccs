@@ -22,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -56,7 +64,7 @@
               "RelativeDocumentMoniker": "BearingDistanceTool\\MainForm.cs",
               "ToolTip": "C:\\Users\\Unit6\\source\\repos\\calccs\\BearingDistanceTool\\MainForm.cs",
               "RelativeToolTip": "BearingDistanceTool\\MainForm.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAASwEwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T03:59:35.568Z",
               "EditorCaption": ""
